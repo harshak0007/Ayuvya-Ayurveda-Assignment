@@ -1,0 +1,68 @@
+.main {
+    min-height: 100vh;
+    padding: 4rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.reviewSection {
+    margin: 2rem 0;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+.stars,
+.thumbs {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.star,
+.thumb {
+    font-size: 2rem;
+    cursor: pointer;
+    margin: 0 0.2rem;
+}
+
+.star.filled {
+    fill: #ff0000;
+    stroke: red;
+}
+
+.thumbUp {
+    color: green;
+}
+
+.thumbDown {
+    color: red;
+}
+
+
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .title {
+        font-size: 2rem;
+    }
+
+    .star,
+    .thumb {
+        font-size: 1.5rem;
+    }
+
+    .reviewSection {
+        margin: 1rem 0;
+    }
+}

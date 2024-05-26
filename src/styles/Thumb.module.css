@@ -1,0 +1,43 @@
+.animatingYes {
+    animation: clicked 1s ease;
+}
+
+@keyframes clicked {
+    0% {
+        transform: rotate(0)
+    }
+
+    25% {
+        transform: rotate(10deg)
+    }
+
+    50% {
+        transform: rotate(-10deg);
+    }
+
+    100% {
+        transform: rotate(0)
+    }
+}
+
+.animatingNo {
+    animation: no 1s ease;
+}
+
+@keyframes no {
+    0% {
+        transform: rotate(180deg)
+    }
+
+    25% {
+        transform: rotate(170deg)
+    }
+
+    50% {
+        transform: rotate(190deg)
+    }
+
+    100% {
+        transform: rotate(180deg);
+    }
+}
