@@ -13,8 +13,7 @@ To get started with the project, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://link-to-project
-    cd trausti-review
+    git clone https://github.com/harshak0007/Ayuvya-Ayurveda-Assignment.git ./
     ```
 
 2. Install the dependencies:
